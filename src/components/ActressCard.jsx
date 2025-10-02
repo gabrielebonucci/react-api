@@ -3,7 +3,7 @@ function ActressCard({ actress }) {
     <div>
       <h2>{actress.name}</h2>
 
-      <img src={actress.img} alt={`Foto di ${actress.name}`} />
+      <img src={actress.image} alt={`Foto di ${actress.name}`} />
 
       <p>Nazionalità: {actress.nationality}</p>
       <p>Anno di nascità: {actress.birth_year}</p>

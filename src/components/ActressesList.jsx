@@ -1,13 +1,19 @@
 import ActressCard from "./ActressCard";
 
-function ActressesList({ actresses = [] }) {
+export default function ActressesList({ actresses = [] }) {
+  if (actresses.length === 0) {
+    return (
+      <p>
+        Nessuna attrice trovata. Controlla la risposta dell'API nella console.
+      </p>
+    );
+  }
+
   return (
     <div>
       {actresses.map((actress) => (
-        <ActressCard key={actress.name} actress={actress} />
+        <ActressCard key={actress.id} actress={actress} />
       ))}
     </div>
   );
 }
-
-export default ActressesList;
