@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
+import ActressCard from "./components/ActressCard";
 import "./App.css";
 
 export default function App() {
