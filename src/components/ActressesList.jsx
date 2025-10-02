@@ -10,7 +10,7 @@ export default function ActressesList({ actresses = [] }) {
   }
 
   return (
-    <div>
+    <div className="actresses-list">
       {actresses.map((actress) => (
         <ActressCard key={actress.id} actress={actress} />
       ))}

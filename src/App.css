@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  font-size: 65px;
+  text-align: center;
+}
+
+.actresses-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.container {
+  background-color: white;
+  border-radius: 10px;
+  width: 250px;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  text-align: center;
+}
+
+.container .actress-card {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.container h1 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.container .section {
+  margin-top: 15px;
+  border-top: 1px solid #f0f0f0;
+  padding-top: 15px;
+  text-align: left;
+}
