@@ -11,11 +11,7 @@ function ActressCard({ actress }) {
       <h4>Biografia</h4>
       <p>{actress.biography}</p>
       <h4>Riconoscimenti:</h4>
-      <ul>
-        {actress.awards?.map((award, index) => (
-          <li key={index}>{award}</li>
-        ))}
-      </ul>
+      <p>{actress.awards}</p>
     </div>
   );
 }
